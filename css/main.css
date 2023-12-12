@@ -1,0 +1,464 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Montserrat:wght@100;200&display=swap');
+
+
+body{
+    height:100vh;
+    margin: 0;
+    display: grid;
+    min-width: 700px;
+
+
+    
+}
+
+
+
+*{
+    font-family: 'Assistant', sans-serif;
+    
+}
+
+img{
+    max-width: 100%;
+}
+
+@media (max-width: 768px) {
+  /* styles for small screens */
+  div {
+    width: 100%;
+    float: none;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+#header{
+    height : 100px;
+    width: 100%;
+    background-color: #1c1e1ffa;
+    display: block;
+    position: fixed;
+    z-index: 10;
+}
+
+#header img {
+    width: 80px;
+    height: 80px;
+    padding-left: 50px;
+    padding-top: 15px;
+    float: left;
+}
+
+.logedin{
+    color: #fff;
+    
+}
+
+#header ul{
+    float: right;
+    height: 50px;
+    width: 700px;
+    padding-top: 20px;
+}
+
+
+#header ul li{
+    display: inline;
+    padding-right: 30px;
+    font-size: 25px;
+}
+.other-page{
+     color: #fff;
+    font-size: 25px;
+
+
+}
+
+.current-page{
+    color: #A385E0;
+
+}
+
+
+#header a{
+    text-decoration: none;
+}
+
+#header h2{
+   float: left;
+   margin-left: 50px;
+   margin-top: 30px;
+   color: #fff;
+
+}
+
+#header h2 span{
+    color: #A385E0;
+}
+
+
+
+
+
+.content{
+    margin-top: 50px;  
+    width: 100%;
+    height: 2500px;
+    
+
+}
+
+.section1{
+    position: relative;
+    height: 1500px;
+    width: 100%;
+    background: #181A1B;
+    display: block;
+
+}
+
+
+
+
+
+.course-text{
+    padding-top: 60px;
+    font-size: 28px;
+    font-weight: 700;
+    color: #BDB7AF;
+    margin-left: 100px;
+}
+
+.categories{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 450px
+}
+
+.category{
+    display: block;
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+    height: 300px;
+    width: 250px;
+    outline: 1px solid #242728;
+    box-shadow: 2px 2px rgba(83, 86, 87, 0.925);
+    border-radius: 10%;
+    text-align:center;
+    background:linear-gradient(to bottom,#1c1e1ffa 70%, #181A1B 30%);
+}
+
+.category:hover{
+    transform: scale(1.1);
+    transition: transform 1.5s;
+    box-shadow: 4px 4px rgba(7, 0, 0, 0.918);
+}
+
+.category img{
+    display: block;
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+    margin: auto;
+    
+ 
+
+}
+
+.category label{
+    display: block;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    padding-top: 60px;
+    font-weight: bold;
+    color: #8A82CA;
+
+}
+
+.category  :hover{
+    cursor: pointer;
+ 
+    
+
+}
+
+.courses{
+    position: relative;
+    margin-top: 100px;
+    height: 650px;
+    width: 100%;
+
+    display: inline-block;
+
+}
+
+.h12{
+    padding-top:10px;
+}
+
+.course{
+    position: relative;
+    height:320px ;
+    width: 280px;
+
+    outline: 2px solid #242728;
+    box-shadow: 1px 1px rgba(83, 86, 87, 0.925);
+    float: left;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+
+.course:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform 1.5s;
+    box-shadow: 4px 4px rgba(65, 76, 77, 0.918);
+}
+
+
+.thumbnail{
+    display: block;
+    margin: auto;
+}
+
+.course label{
+    font-family: sans-serif;
+    color: RGB(189, 183, 175);
+    display: block;
+    font-weight: bold;
+    display: inline-block
+}
+
+.course-title{
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+.course .icon{
+    height: 20px;
+    float: left;
+    margin-left: 15px;
+    padding-top: 40px;
+
+}
+
+.course-time{
+    padding-top: 42px;
+    padding-left: 10px;
+    font-size: 15px;
+
+
+
+}
+
+.price{
+
+    padding-top: 42px;
+    padding-left: 120px;
+}
+
+
+.section2{
+    position: relative; 
+    height: 500px;
+    width: 100%;
+
+    background: #1c1e1ffa;
+
+}
+
+
+.section2-text{
+    position: relative;
+
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.section2-text  #p1{
+    position: relative;
+    padding-left: 450px;
+    color: #8A82CA;
+    font-size: 60px;
+    font-family: 'Assistant', sans-serif;
+    font-weight: 500;
+   
+}
+
+.section2-text  #p2{
+    color: RGB(155, 146, 133);
+    font-size: 16px;
+    font-family: 'Assistant', sans-serif;
+    padding-left: 400px;
+}
+
+
+.section2-pros{
+    float: right;
+    width: 50%;
+    height: 90%;
+    margin-top: 40px;
+
+    display: block;
+}
+
+.pro{
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 120px;
+}
+
+.pro img{
+    height: 65px;
+    width: 65px;
+
+}
+
+.pro label{
+    position: absolute;
+    color: RGB(189, 183, 175);
+    font-size: 24px;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+.section3{
+    position: relative;
+    height: 500px;
+    background: #181A1B;
+}
+
+.section3-content{
+    height: 80%;
+    width: 60%;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 50px;
+        
+}
+
+.section3-title{
+    color: #BDB7AF;
+    font-family: 'Assistant', sans-serif;
+    text-align: center;
+   font-weight: 700;
+   font-size: 30px;
+
+}
+
+.section3-row{
+
+    height: 75%;
+    width: 100%;
+    margin-left: 5px
+
+
+}
+
+.instructor{
+    height:300px;
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 40px;
+    box-shadow:5px 5px 5px 5px rgba(19, 20, 20, 0.733) ;
+}
+
+.instructor img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+
+
+
+.instructor:hover{
+    transform: scale(1.05);
+    transition: transform 1.5s;
+}
+
+.footer{
+    height: 600px;
+    background: #1c1e1ffa;
+
+}
+
+.footer-content{
+    height: 80%;
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+
+.footer-p1{
+    color:#A385E0;
+    font-size: 76px;
+}
+
+.footer-p2{
+    color:#9B9285;
+    font-size: 16px
+}
+
+.footer-content input{
+    width: 250px;
+    height: 40px;
+    background: #1c1e1ffa;;
+    border: 1px solid #9B9285;
+    border-radius: 3px;
+
+}
+
+.footer button{
+    height: 40px;
+    width: 90px;
+    margin-left: 15px;
+    color: #A385E0;
+    outline: 0.5px solid #A385E0;
+    border: none;
+    font-weight: 600;
+    background: #1c1e1ffa;;;
+}
+
+::placeholder{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Assistant', sans-serif;
+    padding-left: 10px;
+
+
+}
+
+
+.footer label{
+    display: block;
+    margin: auto;
+}
+
+.footer-content div{
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.footer img{
+    float: left;
+    margin-top: 120px;
+}
+
+

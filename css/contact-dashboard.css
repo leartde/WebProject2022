@@ -1,0 +1,126 @@
+  body{
+      background: #202223;
+      
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Montserrat:wght@100;200&display=swap');
+
+    *{
+    font-family: 'Assistant', sans-serif;
+    }
+
+
+  .container{
+      padding-top: 2%;
+    padding-left: 15%;
+    padding-right: 15%;
+    justify-content: center;
+    height: 93.5vh;
+  }
+
+
+  .row{
+    width: 1465px;
+  }
+
+  .header{
+      color: #BDB7AF;
+    font-weight: bold;
+    padding-left: 2px;
+    padding-right: 2px;
+
+  }
+
+  hr{
+      height: 2px;
+      background-color: black;
+      margin-bottom: 3%;
+      border: 0;
+  }
+
+  a {
+      text-decoration: none;
+      font-weight: bold;
+      padding-left: 2px;
+      padding-right: 2px;
+      transition: .4s;
+      border-radius: 2px;
+  }
+
+
+.btn {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 0px;
+    border: 1px solid black;
+    text-align: center;
+    color: #f3f1f1;
+    transition: .4s;
+}
+.btn:hover {
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+}
+
+  #btn1{
+    float: left;
+  }
+
+  #btn2{
+    float: right;
+  }
+
+  .contact-table{
+    margin-top: 40px;
+      width: 1800px;
+    
+  }
+
+  .table{
+      margin-top: 2%;
+      /* width: 100%; */
+      table-layout: fixed;
+      overflow: hidden;
+   white-space: nowrap;
+      text-align: left;
+      border-collapse: collapse;
+      margin: 25px;
+      font-size: 0.9em;
+      min-width: 1350px;
+      max-width: 1350px;
+      float: left;
+    }
+
+
+ 
+
+  .table tbody{
+      color:#BDB7AF;
+    
+
+  }
+
+  .table thead tr{
+    background-color:#A385E0;
+    color: #fff;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .table td, .table th{
+      padding:12px 15px
+  }
+
+.table td{ 
+  max-width: 800px;
+  }
+
+  .table tr{
+    border-bottom: 1px solid #ddd;
+  }
+
+  .table tr:nth-of-type(even){
+    background-color: #1c1e1ffa;
+  }
+
